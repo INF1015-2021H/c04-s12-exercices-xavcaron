@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Source Files\view">
+      <UniqueIdentifier>{b1e18aa6-83e8-428d-8900-23c7add150f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\view">
+      <UniqueIdentifier>{e708c807-2d95-4a55-9616-669d01798bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{0c8b1ac7-6158-4fde-9e80-06687dde64b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\weapons">
+      <UniqueIdentifier>{2aa36068-835b-4a7f-964b-d32041fb503a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\weapons\melee">
+      <UniqueIdentifier>{874dd6f1-cd24-422d-8ec0-45b2b3f869d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\spells">
+      <UniqueIdentifier>{015c9143-eeb7-41bc-bdc3-54ac99cacab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\stats">
+      <UniqueIdentifier>{9b900b63-f86f-464b-845a-64a910692524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\stats">
+      <UniqueIdentifier>{ef365c03-7630-41b6-b29f-ab65c3b5ab32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\characters">
+      <UniqueIdentifier>{f554a4bc-e6a5-4d13-922d-cf986f1c12f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\characters">
+      <UniqueIdentifier>{d55f9d68-2011-44bc-8704-5e5c3dc08d5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\characters\classes">
+      <UniqueIdentifier>{eff4b7c6-db5b-4be5-a807-39a8b457e092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\characters\classes">
+      <UniqueIdentifier>{032b9bea-1a5d-4746-b49c-a36aab1f022b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\combat">
+      <UniqueIdentifier>{b3be5840-96d0-4ac6-9332-76097f8a65ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\combat">
+      <UniqueIdentifier>{0c299f53-cf4c-4e55-82d1-a889c722bdf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\combat\classes">
+      <UniqueIdentifier>{6ff01ab8-b042-45f5-ab33-f1325a43e019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\combat\classes">
+      <UniqueIdentifier>{3fa797a4-38b2-490c-85f8-f307432bfb9e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stats\Ability.cpp">
+      <Filter>Source Files\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="stats\StatBlock.cpp">
+      <Filter>Source Files\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="characters\MeleeWeaponUser.cpp">
+      <Filter>Source Files\characters</Filter>
+    </ClCompile>
+    <ClCompile Include="characters\classes\Fighter.cpp">
+      <Filter>Source Files\characters\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="characters\classes\Monk.cpp">
+      <Filter>Source Files\characters\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="combat\Attack.cpp">
+      <Filter>Source Files\combat</Filter>
+    </ClCompile>
+    <ClCompile Include="combat\UnarmedStrike.cpp">
+      <Filter>Source Files\combat</Filter>
+    </ClCompile>
+    <ClCompile Include="combat\MeleeWeaponAttack.cpp">
+      <Filter>Source Files\combat</Filter>
+    </ClCompile>
+    <ClCompile Include="view\MainWindow.cpp">
+      <Filter>Source Files\view</Filter>
+    </ClCompile>
+    <ClCompile Include="combat\Turn.cpp">
+      <Filter>Source Files\combat</Filter>
+    </ClCompile>
+    <ClCompile Include="combat\classes\MonkTurn.cpp">
+      <Filter>Source Files\combat\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="combat\CombatManager.cpp">
+      <Filter>Source Files\combat</Filter>
+    </ClCompile>
+    <ClCompile Include="combat\classes\FighterTurn.cpp">
+      <Filter>Source Files\combat\classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils\Die.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="weapons\IWeapon.hpp">
+      <Filter>Header Files\weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\DiceRoller.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="weapons\melee\GenericMeleeWeapon.hpp">
+      <Filter>Header Files\weapons\melee</Filter>
+    </ClInclude>
+    <ClInclude Include="spells\ISpell.hpp">
+      <Filter>Header Files\spells</Filter>
+    </ClInclude>
+    <ClInclude Include="stats\StatBlock.hpp">
+      <Filter>Header Files\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="stats\Ability.hpp">
+      <Filter>Header Files\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="characters\AbstractCharacter.hpp">
+      <Filter>Header Files\characters</Filter>
+    </ClInclude>
+    <ClInclude Include="characters\BasicCharacter.hpp">
+      <Filter>Header Files\characters</Filter>
+    </ClInclude>
+    <ClInclude Include="characters\classes\Fighter.hpp">
+      <Filter>Header Files\characters\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="characters\MeleeWeaponUser.hpp">
+      <Filter>Header Files\characters</Filter>
+    </ClInclude>
+    <ClInclude Include="characters\classes\Monk.hpp">
+      <Filter>Header Files\characters\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="spells\GenericSpell.hpp">
+      <Filter>Header Files\spells</Filter>
+    </ClInclude>
+    <ClInclude Include="spells\builtins.hpp">
+      <Filter>Header Files\spells</Filter>
+    </ClInclude>
+    <ClInclude Include="weapons\melee\IMeleeWeapon.hpp">
+      <Filter>Header Files\weapons\melee</Filter>
+    </ClInclude>
+    <ClInclude Include="combat\fwddecl.hpp">
+      <Filter>Header Files\combat</Filter>
+    </ClInclude>
+    <ClInclude Include="combat\BaseActivity.hpp">
+      <Filter>Header Files\combat</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="combat\IActivity.hpp">
+      <Filter>Header Files\combat</Filter>
+    </QtMoc>
+    <QtMoc Include="combat\Attack.hpp">
+      <Filter>Header Files\combat</Filter>
+    </QtMoc>
+    <QtMoc Include="combat\UnarmedStrike.hpp">
+      <Filter>Header Files\combat</Filter>
+    </QtMoc>
+    <QtMoc Include="combat\MeleeWeaponAttack.hpp">
+      <Filter>Header Files\combat</Filter>
+    </QtMoc>
+    <QtMoc Include="combat\Turn.hpp">
+      <Filter>Header Files\combat</Filter>
+    </QtMoc>
+    <QtMoc Include="view\MainWindow.hpp">
+      <Filter>Header Files\view</Filter>
+    </QtMoc>
+    <QtMoc Include="combat\classes\MonkTurn.hpp">
+      <Filter>Header Files\combat\classes</Filter>
+    </QtMoc>
+    <QtMoc Include="view\InfoPrinter.hpp">
+      <Filter>Header Files\view</Filter>
+    </QtMoc>
+    <QtMoc Include="combat\CombatManager.hpp">
+      <Filter>Header Files\combat</Filter>
+    </QtMoc>
+    <QtMoc Include="combat\classes\FighterTurn.hpp">
+      <Filter>Header Files\combat\classes</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="view\MainWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>
